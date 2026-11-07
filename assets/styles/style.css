@@ -1,9 +1,63 @@
 @font-face {
-  font-family: "Doran";
-  src: url("../fonts/Doran-Bold.otf") format("opentype");
-  font-weight: bold;
-  font-style: normal;
+  font-family: "Arad";
+  src: url("../fonts/MainFonts - نسخه عادی/Static_Webfont/Arad-Thin.woff2") format("woff2");
+  font-weight: 100;
 }
+
+@font-face {
+  font-family: "Arad";
+  src: url("../fonts/MainFonts - نسخه عادی/Static_Webfont/Arad-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Arad";
+  src: url("../fonts/MainFonts - نسخه عادی/Static_Webfont/Arad-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Arad";
+  src: url("../fonts/MainFonts - نسخه عادی/Static_Webfont/Arad-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Arad";
+  src: url("../fonts/MainFonts - نسخه عادی/Static_Webfont/Arad-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Arad";
+  src: url("../fonts/MainFonts - نسخه عادی/Static_Webfont/Arad-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Arad";
+  src: url("../fonts/MainFonts - نسخه عادی/Static_Webfont/Arad-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Arad";
+  src: url("../fonts/MainFonts - نسخه عادی/Static_Webfont/Arad-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Arad";
+  src: url("../fonts/MainFonts - نسخه عادی/Static_Webfont/Arad-Black.woff2") format("woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Arad";
+  src: url("../fonts/MainFonts - نسخه عادی/Static_Webfont/Arad-ExtraBlack.woff2") format("woff2");
+  font-weight: 950;
+}
+
 
 * {
   box-sizing: border-box;
@@ -16,6 +70,7 @@ html {
 body {
   margin: 0;
   background-color: #eaf0e8;
+  font-family: "Arad", sans-serif;
 }
 
 #div {
@@ -64,13 +119,13 @@ body {
 }
 
 .sidebar-header h2 {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #2c3c2c;
   font-size: 32px;
 }
 
 .sidebar-header p {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #718171;
   font-size: 12px;
 }
@@ -86,7 +141,7 @@ body {
 
 .sidebar-nav > p {
   color: #465546;
-  font-family: "Doran";
+  font-family: "Arad";
   text-align: center;
   margin-top: auto;
   padding-bottom: 20px;
@@ -95,7 +150,7 @@ body {
 .sidebar-nav a {
   text-decoration: none;
   color: #465546;
-  font-family: "Doran";
+  font-family: "Arad";
   padding: 15px;
   border-radius: 12px;
   transition: 0.25s ease;
@@ -134,7 +189,7 @@ body {
 }
 
 #hover > p {
-  font-family: "Doran", sans-serif;
+  font-family: "Arad", sans-serif;
   color: #2c3c2c;
   font-size: 20px;
   margin: 30px;
@@ -142,7 +197,7 @@ body {
 }
 
 #hover > h1 {
-  font-family: "Doran", sans-serif;
+  font-family: "Arad", sans-serif;
   color: rgb(83, 116, 83);
   font-size: 60px;
   font-weight: bold;
@@ -151,7 +206,7 @@ body {
 
 .card > h2 {
   color: white;
-  font-family: "Doran", sans-serif;
+  font-family: "Arad", sans-serif;
   font-size: 25px;
   padding: 20px 10px 30px;
   border-bottom: 1px solid #e5ebe5;
@@ -159,7 +214,7 @@ body {
 
 .card > p {
   color: white;
-  font-family: "Doran", sans-serif;
+  font-family: "Arad", sans-serif;
   font-size: 15px;
   line-height: 2.2;
 }
@@ -197,7 +252,7 @@ body {
 }
 
 .info > h2 {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #2c3c2c;
   font-size: 22px;
   text-align: center;
@@ -206,7 +261,7 @@ body {
 }
 
 .info > p {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #2c3c2c;
   font-size: 15px;
   text-align: center;
@@ -236,13 +291,13 @@ body {
 }
 
 .timeline-section > h2 {
-  font-family: "Doran";
+  font-family: "Arad";
   font-size: 35px;
   color: rgb(44, 60, 44);
 }
 
 .timeline-description {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #718171;
   margin-bottom: 50px;
 }
@@ -277,25 +332,25 @@ body {
   color: #365536;
   padding: 7px 15px;
   border-radius: 20px;
-  font-family: "Doran";
+  font-family: "Arad";
   font-size: 14px;
 }
 
 .timeline-card h3 {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #2c3c2c;
   font-size: 23px;
   margin-top: 20px;
 }
 
 .timeline-card p {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #647264;
   font-size: 15px;
 }
 
 .text > h2 {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #2c3c2c;
   font-size: 22px;
   text-align: center;
@@ -305,12 +360,12 @@ body {
 }
 
 .text > h3 {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #718171;
 }
 
 .text > p {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #2c3c2c;
   font-size: 15px;
   text-align: right;
@@ -322,7 +377,7 @@ body {
 }
 
 li {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #465546;
   font-size: 15px;
   text-align: right;
@@ -342,7 +397,7 @@ li {
   padding: 50px;
 }
 .end > p {
-  font-family: "Doran", sans-serif;
+  font-family: "Arad", sans-serif;
   color: #e1e9df;
   font-size: 20px;
   margin: 30px;
@@ -350,7 +405,7 @@ li {
 }
 
 .end > h1 {
-  font-family: "Doran", sans-serif;
+  font-family: "Arad", sans-serif;
   color: #f5f8f3;
   font-size: 60px;
   font-weight: bold;
@@ -361,7 +416,7 @@ li {
 }
 
 .end > ul > li {
-  font-family: "Doran", sans-serif;
+  font-family: "Arad", sans-serif;
   color: #f5f8f3;
   font-size: 15px;
   font-weight: bold;
@@ -386,7 +441,7 @@ li {
 }
 
 .content-description > h2 {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #2c3c2c;
   font-size: 22px;
   text-align: center;
@@ -396,12 +451,12 @@ li {
 }
 
 .content-description > h3 {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #718171;
 }
 
 .content-description > p {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #2c3c2c;
   font-size: 15px;
   text-align: right;
@@ -427,14 +482,14 @@ li {
 }
 
 .footer h2 {
-  font-family: "Doran";
+  font-family: "Arad";
   font-size: 30px;
   margin: 0 0 10px;
   color: #ffffff;
 }
 
 .footer > p {
-  font-family: "Doran";
+  font-family: "Arad";
   color: #c5d4c5;
   font-size: 14px;
 }
