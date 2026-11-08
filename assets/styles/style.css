@@ -102,7 +102,7 @@ body {
 }
 
 #side-bar:hover {
-  transform: perspective(1000px) rotateY(-2deg) translateZ(10px);
+  transform: perspective(1000px) translateZ(10px);
 
   box-shadow: -15px 15px 35px rgba(44, 60, 44, 0.12);
 }
@@ -225,6 +225,8 @@ body {
   overflow-x: auto;
   padding: 20px;
   direction: rtl;
+  padding-top: 40px;
+  scrollbar-width: none;
 }
 
 .card {
@@ -242,13 +244,15 @@ body {
     transform 0.3s ease-in-out,
     background-color 0.3s ease,
     border-color 0.3s ease,
-    box-shadow 0.3s ease;
+    box-shadow 0.3s ease,
+    margin-top 0.3s ease;
 }
 
 .card:hover {
   transform: perspective(600px) rotateX(360deg) translateY(-20px);
   background-color: rgb(55, 76, 55);
   border-color: rgb(120, 160, 120);
+  margin-top: 30px;
 }
 
 .info > h2 {
